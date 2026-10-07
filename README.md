@@ -1,4 +1,5 @@
-## IEMOCAP
+## ACGNN: Asymmetric Context Fusion via Graph Neural Network for Multimodal Emotion Recognition in Conversations
+### IEMOCAP
 
 ```bash
 python main.py --dataset IEMOCAP_RoBERTa --epochs 120 \
@@ -6,7 +7,7 @@ python main.py --dataset IEMOCAP_RoBERTa --epochs 120 \
     --focal_loss True --class_weight False
 ```
 
-## MELD
+### MELD
 
 ```bash
 python main.py --dataset MELD_RoBERTa --epochs 60 \
@@ -16,6 +17,5 @@ python main.py --dataset MELD_RoBERTa --epochs 60 \
 
 ## Acknowledgements
 
-* The code structure of this repository is adapted from **MMGCN** (Multimodal Fusion via
-  Deep Graph Convolution Network for Emotion Recognition in Conversation).
-* The **dataset features** are provided by **RL-EMO**.
+* The code structure of this repository is adapted from [MMGCN](https://github.com/hujingwen6666/MMGCN).
+* The dataset features are provided by [RL-EMO](https://github.com/zyh9929/RL-EMO).
